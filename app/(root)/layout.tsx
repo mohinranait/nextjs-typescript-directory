@@ -10,7 +10,7 @@ const MainLayout: React.FC<Props> = ({ children }) => {
     return (
         <>
             <Header />
-            <main>
+            <main className='bg-bg-themne'>
                 {children}
             </main>
             <Footer />
